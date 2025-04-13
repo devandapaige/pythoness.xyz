@@ -1,0 +1,212 @@
+# General Info
+
+This is a {FRAMEWORK_NAME} project. Always consider the following background information and rules when planning and implementing app features.
+
+## Quick Reference
+
+### Common Patterns
+- Define app structure in `{CONFIG_FILE_PATH}`
+- Define data models in `{DATA_MODEL_PATH}`
+- Group feature code in `{FEATURE_DIRECTORY_PATTERN}`
+- Group feature config definitions using the appropriate method for your framework
+- Use appropriate patterns for client-server communication
+- Follow import conventions: `{IMPORT_PATTERN}`
+- Document features in `{DOCS_DIRECTORY}` with:
+  - One markdown file per feature (e.g. `{DOCS_DIRECTORY}/{featureName}.md`)
+  - API specifications and data models
+  - User workflows and business logic
+  - Update documentation when implementing feature changes
+
+### Common Issues
+- Import path format issues: '{CORRECT_IMPORT_PATTERN}' not '{INCORRECT_IMPORT_PATTERN}'
+- Config file imports should follow pattern: '{CONFIG_IMPORT_PATTERN}'
+- Client-side API calls should follow pattern: '{CLIENT_API_PATTERN}'
+- If data isn't available in operations, check access permissions/configuration
+- Auth issues: ensure auth config is properly set up in {AUTH_CONFIG_FILE}
+
+## Background Information
+
+### What is {FRAMEWORK_NAME}
+
+- Brief description of the framework and its purpose
+- Key distinguishing features of the framework
+- Core technologies it integrates with
+- How code generation or compilation works (if applicable)
+- For detailed information, link to official documentation: [official docs](https://link-to-docs)
+
+### Project Structure
+
+- Main configuration file location and purpose
+- Data model definition location and format
+- Custom code organization strategy
+- Generated code explanation (if applicable)
+- Feature code organization pattern
+
+### Configuration Reference
+
+- Main config file format and structure
+- Key configuration sections and their purpose
+- Example structure:
+  ```
+  # Example configuration code here
+  ```
+
+### Database and Data Models
+
+- Database technology used
+- How models/schemas are defined
+- How database access works in the framework
+- Example model:
+  ```
+  # Example data model here
+  ```
+
+### Backend Operations
+
+- How client-server communication is handled
+- Read vs. write operations pattern
+- Caching and data fetching strategies
+- Example operation:
+  ```
+  # Example operation code
+  ```
+
+### Authentication
+
+- Built-in authentication capabilities
+- Supported auth methods
+- Auth configuration pattern
+- Example auth configuration:
+  ```
+  # Example auth config code
+  ```
+
+- Important notes about auth implementation
+- User model recommendations and caveats
+
+### Advanced Features
+
+#### Background Jobs
+
+- How background jobs/workers are implemented
+- When to use background processing
+- Example:
+  ```
+  # Example job configuration
+  ```
+
+#### API Routes
+
+- How to define custom API endpoints
+- Use cases for custom API routes
+- Example:
+  ```
+  # Example API route definition
+  ```
+
+#### Middleware
+
+- Middleware support and configuration
+- Common middleware use cases
+- Example:
+  ```
+  # Example middleware configuration
+  ```
+
+### Deployment
+
+- Deployment options
+- Recommended deployment process
+- Environment variables and configuration
+- CI/CD recommendations
+
+### Error Handling
+
+- Client-side best practices
+- Server-side error handling pattern
+- HTTP status code usage
+- Example error handling:
+  ```typescript
+  # Example error handling code
+  ```
+
+## Rules
+
+### General Rules
+
+- Configuration and structural guidelines
+- Documentation requirements
+- Code organization principles
+- Version management strategy
+- File organization and naming conventions
+
+### Import Rules
+
+- Framework-specific import patterns
+- Examples of correct imports
+- Examples of incorrect imports
+- Common import errors and troubleshooting
+
+### Database Schema Rules
+
+- How to define and update database models
+- Migration process
+- Database type constraints and recommendations
+- Relationship definition best practices
+
+### API Operations
+
+- Type generation and usage
+- Entity access in operations
+- Client-server communication best practices
+- Example operation implementation:
+  ```typescript
+  # Example operation implementation
+  ```
+
+### Authentication Rules
+
+- Auth component usage
+- User model requirements
+- Protected route implementation
+- Example auth usage:
+  ```typescript
+  # Example auth code
+  ```
+
+### Dependencies Management
+
+- How to add and manage dependencies
+- Framework-specific dependency considerations
+
+### UI Framework
+
+- UI library/framework guidance
+- Component import best practices
+- State management recommendations
+- UI patterns and practices
+
+### Styling
+
+- CSS framework recommendations
+- Styling best practices
+- Responsive design approach
+- Component styling strategies
+
+### Performance Optimization
+
+- Query optimization techniques
+- Data loading strategies
+- Component optimization methods
+- Client-side performance tips
+- Example optimization:
+  ```typescript
+  # Example optimization code
+  ```
+
+### Troubleshooting
+
+- Common error patterns and solutions
+- Debugging techniques
+- Framework-specific troubleshooting tips
+- Development server issues and resolutions
